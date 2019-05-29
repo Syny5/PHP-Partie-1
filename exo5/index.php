@@ -23,10 +23,10 @@
           </header>
           <!-- main -->
           <main>
-            <?php $pasDeValeur = null; ?>
-            <?php echo $pasDeValeur; ?>
-            <?php $pasDeValeur = 15; ?>
-            <?php echo $pasDeValeur ?>
+            <?php $pasDeValeur = null;
+            echo $pasDeValeur;
+            $pasDeValeur = 15;
+            echo $pasDeValeur ?>
           </main>
           <!-- footer -->
           <footer>

@@ -13,17 +13,18 @@
       <div class="container-fluid">
           <!-- header -->
           <header>
-            <div class="jumbotron jumbotron-fluid" id="jumb">
+            <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h1 class="display-3">Partie 1 - Exercice 4</h1>
-                <p class="lead" id="enonce">Créer une variable de type string, une variable de type int, une variable de type float,
+                <p class="lead">Créer une variable de type string, une variable de type int, une variable de type float,
                   une variable de type booléan et les initialiser avec une valeur de votre choix. Les afficher.</p>
               </div>
             </div>
           </header>
           <!-- main -->
           <main>
-            <?php $number = 20; $decimalNumber = 23.4; $booleanTrue = true; $booleanFalse = false; ?>
+            <p><?php $string ='Coucouuu !'; $number = 20; $decimalNumber = 23.4; $booleanTrue = true; $booleanFalse = false; ?></p>
+            <p><?php echo $string; ?> </p>
             <p><?php echo $number;?></p>
             <p><?php echo $decimalNumber;?></p>
             <p><?php echo $booleanTrue;?></p>

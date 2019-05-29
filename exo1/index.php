@@ -13,17 +13,17 @@
       <div class="container-fluid">
           <!-- header -->
           <header>
-            <div class="jumbotron jumbotron-fluid" id="jumb">
+            <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h1 class="display-3">Partie 1 - Exercice 1</h1>
-                <p class="lead" id="enonce">Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p>
+                <p class="lead">Créer une variable name et l'initialiser avec la valeur de votre choix. Afficher son contenu.</p>
               </div>
             </div>
           </header>
           <!-- main -->
           <main>
-        <p>Bonjour <?php $userName = 'Victor Demilly'; // Je déclare la variable userName
-          echo $userName; ?>, comment allez-vous aujourd'hui ?</p>
+            <p>Bonjour <?php $userName = 'Victor Demilly'; // Je déclare la variable userName
+            echo $userName; ?>, comment allez-vous aujourd'hui ?</p>
           <!-- Puis je lui demande de s'afficher avec echo. -->
           </main>
           <!-- footer -->

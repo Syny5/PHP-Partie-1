@@ -13,10 +13,10 @@
       <div class="container-fluid">
           <!-- header -->
           <header>
-            <div class="jumbotron jumbotron-fluid" id="jumb">
+            <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h1 class="display-3">Partie 1 - Exercice 2</h1>
-                <p class="lead" id="enonce">Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher leur contenu.</p>
+                <p class="lead">Créer trois variables lastname , firstname et age et les initialiser avec les valeurs de votre choix. Attention age est de type entier. Afficher leur contenu.</p>
               </div>
             </div>
           </header>
@@ -28,7 +28,7 @@
             ?>
             <p>- Salutations messire <?php echo $firstName . ' ' . $lastName;?>, ma douce amie me demandait votre âge.
             Mes certitudes étant limitées, je n'osa point lui en affirmer. Auriez-vous l'amabalité de m'en informer ?</p>
-            <p><?php echo "- J'ai " . $age . " ans, mon brave."?></p>
+            <p><?php echo '- J\'ai ' . $age . ' ans, mon brave.'?></p>
           </main>
           <!-- footer -->
           <footer>

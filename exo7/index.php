@@ -27,7 +27,7 @@
               $lastName = 'Demilly';
               $firstName = 'Victor';
               $age = '24';
-              echo 'Bonjour ' . $lastName . ' ' . $firstName . ', tu as ' . $age . ' ans.'
+              echo 'Bonjour ' . $lastName . ' ' . $firstName . ', tu as ' . $age . ' ans.';
             ?>
           </main>
           <!-- footer -->

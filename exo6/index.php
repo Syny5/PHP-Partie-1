@@ -25,7 +25,7 @@
           <main>
             <?php
               $name = 'Victor';
-              echo 'Bonjour ' . $name . ', comment vas-tu ?'
+              echo 'Bonjour ' . $name . ', comment vas-tu ?';
             ?>
           </main>
           <!-- footer -->
